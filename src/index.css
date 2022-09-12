@@ -16,6 +16,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark-grey);
 }
 
 code {
@@ -33,7 +34,6 @@ code {
 
 .App {
   height: 100vh;
-  background: var(--dark-grey);
 }
 
 .header {
@@ -42,6 +42,11 @@ justify-content: center;
 align-items: center;
 color: var(--light-grey);
 height: 10%;
+}
+
+.product-container {
+  /* background-color: var(--dark-grey); */
+  padding: 10px;
 }
 
 .product {
@@ -100,4 +105,53 @@ height: 10%;
   width: 40px;
   border-radius: 40%;
   margin: 0 0 0 10px;
+}
+
+@media(max-width: 425px) {
+
+  .product-container {
+    
+  }
+
+  .product {
+    margin: 15px;
+  }
+  .product-image {
+    flex-basis: 50%;
+  }
+
+  .product-info {
+    flex-basis: 50%;
+    font-size: 14px;
+  }
+}
+
+
+@media(max-width: 375px) {
+  .product {
+    margin: 12px;
+  }
+  .product-image {
+    flex-basis: 50%;
+  }
+
+  .product-info {
+    flex-basis: 50%;
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 320px) {
+  .product {
+    margin: 10px;
+  }
+  .product-image {
+    flex-basis: 50%;
+
+  }
+
+  .product-info {
+    flex-basis: 50%;
+    font-size: 10px;
+  }
 }

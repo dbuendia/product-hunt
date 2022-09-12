@@ -5,7 +5,6 @@ function ProductContainer() {
   return (
     <div className="product-container">
       {products.map((product) => {
-        console.log(product);
         return (
           <Product
             key={product.id}
