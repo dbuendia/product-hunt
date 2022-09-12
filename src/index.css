@@ -22,3 +22,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --white: rgb(255 255 255);
+  --light-grey: rgb(243 243 243);
+  --dark-grey: rgb(40, 44, 52);
+  --sub-grey: rgba(171, 182, 203, 0.916);
+  --product-blue: rgb(108, 180, 238);
+}
+
+.App {
+  height: 100vh;
+  background: var(--dark-grey);
+}
+
+.header {
+display: flex;
+justify-content: center;
+align-items: center;
+color: var(--light-grey);
+height: 10%;
+}
+
+.product {
+  background: var(--light-grey);
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px 40px 40px;
+}
+
+.product-image {
+  flex-basis: 20%;
+  display: flex;
+}
+
+.product-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.product-info {
+  flex-basis: 80%;
+  background-color: var(--light-grey);
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.product-info .voting {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+}
+
+.voting img {
+    cursor: pointer;
+    height: 40px;
+}
+
+.product-info .product-title {
+  color: var(--product-blue);
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+  text-decoration: none;
+}
+
+.product-info-image-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  color: var(--sub-grey);
+  font-weight: bold;
+}
+
+.product-info-image-container img {
+  width: 40px;
+  border-radius: 40%;
+  margin: 0 0 0 10px;
+}
