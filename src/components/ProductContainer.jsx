@@ -1,5 +1,5 @@
 import { products } from "../data/products.js";
-import Product from "../components/Product.jsx";
+import Product from "./Product.jsx";
 
 function ProductContainer() {
   return (

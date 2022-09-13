@@ -1,5 +1,5 @@
 import Header from "../src/components/Header.jsx";
-import ProductContainer from "./components/ProductContaioner.jsx";
+import ProductContainer from "./components/ProductContainer.jsx";
 
 function App() {
   return (
