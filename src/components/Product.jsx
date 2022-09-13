@@ -1,4 +1,5 @@
 import arrowUp from "../images/icons/arrow-up.svg";
+import { useState } from "react";
 
 function Product({
   id,
@@ -9,6 +10,12 @@ function Product({
   submitterAvatarUrl,
   productImageUrl,
 }) {
+  const [vote, setVote] = useState(votes);
+
+  function handleVotesChange() {
+    setVote(vote + 1);
+  }
+
   return (
     <div className="product">
       <div className="product-image">
@@ -16,8 +23,8 @@ function Product({
       </div>
       <div className="product-info">
         <div className="voting">
-          <img src={arrowUp} alt="Arrow up" />
-          <span>{votes}</span>
+          <img src={arrowUp} alt="Arrow up" onClick={handleVotesChange} />
+          <span>{vote}</span>
         </div>
         <a href={url} className="product-title">
           {title}
