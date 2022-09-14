@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/product-hunt/static/css/main.89950551.css",
+    "main.js": "/product-hunt/static/js/main.76672fd9.js",
+    "static/js/787.423eb7b7.chunk.js": "/product-hunt/static/js/787.423eb7b7.chunk.js",
+    "static/media/molly.png": "/product-hunt/static/media/molly.0352f05070555e24aa2a.png",
+    "static/media/elliot.jpeg": "/product-hunt/static/media/elliot.e908aca114a07fc134e8.jpeg",
+    "static/media/daniel.jpeg": "/product-hunt/static/media/daniel.35a9c90cffaab9c776f4.jpeg",
+    "static/media/justen.jpeg": "/product-hunt/static/media/justen.9a3597d0cf7134ffa2ae.jpeg",
+    "static/media/helen.jpeg": "/product-hunt/static/media/helen.3e1104e3e3249d822b96.jpeg",
+    "index.html": "/product-hunt/index.html",
+    "static/media/arrow-up.svg": "/product-hunt/static/media/arrow-up.102b769c082367f31c2026984c66570e.svg",
+    "main.89950551.css.map": "/product-hunt/static/css/main.89950551.css.map",
+    "main.76672fd9.js.map": "/product-hunt/static/js/main.76672fd9.js.map",
+    "787.423eb7b7.chunk.js.map": "/product-hunt/static/js/787.423eb7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89950551.css",
+    "static/js/main.76672fd9.js"
+  ]
+}
