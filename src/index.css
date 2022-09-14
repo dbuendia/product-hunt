@@ -38,6 +38,7 @@ code {
 
 .header {
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 color: var(--light-grey);
@@ -45,7 +46,6 @@ height: 10%;
 }
 
 .product-container {
-  /* background-color: var(--dark-grey); */
   padding: 10px;
 }
 

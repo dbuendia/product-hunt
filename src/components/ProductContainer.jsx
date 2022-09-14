@@ -1,12 +1,13 @@
-import { products } from "../data/products.js";
 import Product from "./Product.jsx";
 
-function ProductContainer() {
+function ProductContainer({ onProductClick, updatedProducts }) {
   return (
     <div className="product-container">
-      {products.map((product) => {
+      {updatedProducts.map((product) => {
         return (
           <Product
+            id={product.id}
+            onProductClick={onProductClick}
             key={product.id}
             title={product.title}
             description={product.description}
