@@ -37,7 +37,7 @@ function App() {
   // También le paso la propiedad onProductClick para que éste a su vez se la pase a Product (prop drilling)
   return (
     <div className="App">
-      <Header style="danger" />
+      <Header />
       <ProductContainer
         updatedProducts={products}
         onProductClick={updateProducts}
